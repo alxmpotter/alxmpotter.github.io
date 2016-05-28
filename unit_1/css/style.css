@@ -1,6 +1,8 @@
 body {
-	background-color: silver;
+	background-color: #E8E8E8;
 }
 h1,p {
 	color: purple;
+	font-family: helvetica;
+
 }
