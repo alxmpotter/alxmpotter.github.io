@@ -1,0 +1,18 @@
+body{ 
+	background-image: url(http://i.tmgrup.com.tr/dailysabah/2015/03/28/HaberDetay/1427501545286.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	}
+h3{
+	color: #black;
+	text-align: left;
+	font-family: helvetica;
+}	
+nav, li{
+	display: block;
+}
+li{
+	text-align: center;
+}
+				
