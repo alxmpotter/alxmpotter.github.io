@@ -2,18 +2,27 @@
 @import url(https://fonts.googleapis.com/css?family=Julius+Sans+One);
 @import url(https://fonts.googleapis.com/css?family=Jura);
 @import url(https://fonts.googleapis.com/css?family=Allerta+Stencil);
+div{
+	background: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
 body{ 
 	background-image: url(http://i.tmgrup.com.tr/dailysabah/2015/03/28/HaberDetay/1427501545286.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	font-size: 16px;
-	
-	}
+}
+header{
+	background: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
 h1{
 	font-family: 'Helvetica', sans-serif;
 	width: 20em;
-	margin-bottom: 15em;
-	margin-top: 4em;
+	/*margin-bottom: 15em;
+	margin-top: 4em;*/
 
 	
 }	
@@ -37,12 +46,31 @@ p{
 	line-height: 1.5em;
 }
 img{
-	width: 100%;
+	width: 30em;
 }	
 nav{
-	font-size: 1.5em;
+	background: #E8C66a;
+	border: 1px black solid;
+	padding: 20px;
+	/*font-size: 1.5em;
 	display: block;
-	text-align: center;
+	text-align: center;*/
+}
+section{
+	background: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+article{
+	background: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+footer{
+	background: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+	font-family: 'Orbitron', sans-serif;
 }
 a{
 	font-family: 'Orbitron', sans-serif;
@@ -57,9 +85,6 @@ a{
 	width: 20em;
 	margin: 2em auto;
 */
-}
-.wrapper{
-	font-size: 16px
 }
 .artists{
 	width: 30em;
