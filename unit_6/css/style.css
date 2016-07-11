@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+@import url(https://fonts.googleapis.com/css?family=Julius+Sans+One);
+@import url(https://fonts.googleapis.com/css?family=Jura);
+@import url(https://fonts.googleapis.com/css?family=Allerta+Stencil);
+
+/*div{
+	background: black;
+	border: 1px black solid;
+	padding: 20px;*/
+}
+
+body{ 
+	/*background-image: url(http://i.tmgrup.com.tr/dailysabah/2015/03/28/HaberDetay/1427501545286.jpg);*/
+	/*background-size: contain;
+	background-repeat: no-repeat;
+	font-size: 16px;*/
+}
+
+header{
+	background-image: url(http://i.tmgrup.com.tr/dailysabah/2015/03/28/HaberDetay/1427501545286.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+main{
+	padding: 500px 0;
+}
+
+h1{
+	font-family: 'Helvetica', sans-serif;
+	width: 20em;
+	font-size: 3em;
+	float: left;
+
+	
+}
+
+h2{
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bold;
+	letter-spacing: .5em;
+	color: #black;
+	text-align: left;
+}
+
+h3{
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bolder;
+	float: left;
+}
+
+p{
+	font-family: helvetica;
+	font-size: 1em;
+	width: 30em;
+	line-height: 1.5em;
+}
+
+img{
+	width: 30em;
+
+}	
+
+nav{
+	background: #FFF7EA;
+	border: 1px black solid;
+	padding: 20px;
+	font-size: 1.5em;
+	display: block;
+	text-align: center;
+}
+
+section{
+	background: #E81710;
+	border: 1px black solid;
+	padding: 20px;
+	
+
+}
+
+article{
+	background: #7F7C75;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer{
+	background: #FFF7EA;
+	border: 1px black solid;
+	padding: 20px;
+	font-family: 'Orbitron', sans-serif;
+}
+
+a{
+	font-family: 'Orbitron', sans-serif;
+	color: black;
+	text-decoration: none;
+	padding: 1em;
+	width: 2em;
+}
+
+nav :hover{
+	color: #E81710;
+}
+
+/*#two_column {
+	background-color: #7F0D0A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: #7F3230;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 46%;
+}
+
+#right {
+	background-color: #7F3230;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 46%;
+}
+*/
+/*#dada{
+	float: left;
+
+}*/
+#def{
+	font-family: 'Helvetica', sans-serif;
+	width: 20em;
+	font-size: 2em;
+	float: right;
+
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.artists{
+	width: 30em;
+}
