@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Julius+Sans+One);
 @import url(https://fonts.googleapis.com/css?family=Jura);
 @import url(https://fonts.googleapis.com/css?family=Allerta+Stencil);
-
+* { margin:0; padding:0; box-sizing:border-box; }
 /*div{
 	background: black;
 	border: 1px black solid;
@@ -18,23 +18,22 @@ body{
 
 header{
 	background-image: url(http://i.tmgrup.com.tr/dailysabah/2015/03/28/HaberDetay/1427501545286.jpg);
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 6em;
+	height: 90vh;
 }
 
 main{
-	padding: 500px 0;
+	/* padding: 500px 0; */
 }
 
 h1{
 	font-family: 'Helvetica', sans-serif;
-	width: 20em;
-	font-size: 3em;
+	/* width: 20em; */
+	font-size: 6em;
 	float: left;
-
-	
 }
 
 h2{
@@ -135,8 +134,7 @@ nav :hover{
 	font-family: 'Helvetica', sans-serif;
 	width: 20em;
 	font-size: 2em;
-	float: right;
-
+	/* float: left; */
 }
 
 .clearfix:after{
