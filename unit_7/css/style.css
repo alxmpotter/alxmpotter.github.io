@@ -2,19 +2,11 @@
 @import url(https://fonts.googleapis.com/css?family=Julius+Sans+One);
 @import url(https://fonts.googleapis.com/css?family=Jura);
 @import url(https://fonts.googleapis.com/css?family=Allerta+Stencil);
-<<<<<<< HEAD
 
 *{ 
 	margin: 0; 
 	padding: 0; 
 	box-sizing: border-box; 
-=======
-* { margin:0; padding:0; box-sizing:border-box; }
-/*div{
-	background: black;
-	border: 1px black solid;
-	padding: 20px;*/
->>>>>>> origin/master
 }
 
 body{ 
@@ -23,40 +15,18 @@ body{
 }
 
 header{
-<<<<<<< HEAD
 	background-image: url(http://profiles.arts.monash.edu.au/robert-burke/files/2013/10/Screen-Shot-2013-10-12-at-8.32.26-AM.png);
 	background-size: cover;
-=======
-	background-image: url(http://i.tmgrup.com.tr/dailysabah/2015/03/28/HaberDetay/1427501545286.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	border: 1px black solid;
->>>>>>> origin/master
 	padding: 6em;
 	height: 90vh;
 }
 
-main{
-<<<<<<< HEAD
-	/*padding: 500px 0;*/
-=======
-	/* padding: 500px 0; */
->>>>>>> origin/master
-}
-
 h1{
 	font-family: 'Helvetica', sans-serif;
-<<<<<<< HEAD
 	color: black;
 	width: 20em;
 	font-size: 3em;
 	margin: auto;
-
-=======
-	/* width: 20em; */
-	font-size: 6em;
-	float: left;
->>>>>>> origin/master
 }
 
 h2{
@@ -116,42 +86,6 @@ nav :hover{
 	color: #E81710;
 }
 
-<<<<<<< HEAD
-=======
-/*#two_column {
-	background-color: #7F0D0A;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-#left {
-	background-color: #7F3230;
-	border: 1px black solid;
-	padding: 20px;
-	float: left;
-	width: 46%;
-}
-
-#right {
-	background-color: #7F3230;
-	border: 1px black solid;
-	padding: 20px;
-	float: right;
-	width: 46%;
-}
-*/
-/*#dada{
-	float: left;
-
-}*/
-#def{
-	font-family: 'Helvetica', sans-serif;
-	width: 20em;
-	font-size: 2em;
-	/* float: left; */
-}
-
->>>>>>> origin/master
 .clearfix:after{
 	visibility: hidden;
 	display: block;
@@ -163,7 +97,6 @@ nav :hover{
 
 .artists{
 	width: 30em;
-<<<<<<< HEAD
 	float: right;
 }
 
@@ -172,7 +105,7 @@ nav :hover{
 	height:100%;
     min-height:100%;
     width:100%;
-    z-index:1000;
+    z-index:100%;
 }
 
 #wrapper{
@@ -211,6 +144,3 @@ nav :hover{
 #c{
 	background-color: #4B7868;
 }
-=======
-}
->>>>>>> origin/master
