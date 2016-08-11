@@ -1,7 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Orbitron);
-@import url(https://fonts.googleapis.com/css?family=Julius+Sans+One);
 @import url(https://fonts.googleapis.com/css?family=Jura);
-@import url(https://fonts.googleapis.com/css?family=Allerta+Stencil);
 
 *{ 
 	margin: 0; 
@@ -33,11 +31,8 @@ h2{
 	font-family: 'Orbitron', sans-serif;
 	font-weight: bold;
 	letter-spacing: .5em;
-	color: #black;
 	text-align: center;
-	/*font-size: 2em;*/
 	line-height: 5em;
-
 }
 
 h3{
@@ -47,7 +42,7 @@ h3{
 }
 
 p{
-	font-family: helvetica;
+	font-family: 'Jura';
 	font-size: 1em;
 	width: 30em;
 	line-height: 1.5em;
@@ -98,6 +93,9 @@ nav :hover{
 .artists{
 	width: 30em;
 	float: right;
+	display: inline-block;
+	background: rgba(255,255,255,.8);
+	margin: .25em;
 }
 
 .panels{
@@ -123,7 +121,13 @@ nav :hover{
 #artists{
 	margin-top: 100%;
 	background-image: url(http://designerwallcoverings.com/WallpaperStore/images/newspaperprintwallpaperab217999.jpg);
+}
 
+#def{
+	font-family: 'helvetica', sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	float: left;
 }
 
 #z{
