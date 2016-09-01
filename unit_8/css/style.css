@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+@import url(https://fonts.googleapis.com/css?family=Jura);
+
+*{ 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+}
+
+body{ 
+	background-color: #828C8A;
+	font-size: 16px;
+}
+
+header{
+	background-image: url(http://profiles.arts.monash.edu.au/robert-burke/files/2013/10/Screen-Shot-2013-10-12-at-8.32.26-AM.png);
+	background-size: cover;
+	padding: 6em;
+	height: 90vh;
+}
+
+h1{
+	font-family: 'Helvetica', sans-serif;
+	color: black;
+	width: 20em;
+	font-size: 3em;
+	margin: auto;
+}
+
+h2{
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bold;
+	letter-spacing: .5em;
+	text-align: center;
+	line-height: 5em;
+}
+
+h3{
+	font-family: 'Orbitron', sans-serif;
+	font-weight: bolder;
+	text-align: center;
+}
+
+p{
+	font-family: 'Jura';
+	font-size: 1em;
+	width: 30em;
+	line-height: 1.5em;
+	margin: auto;
+	padding-bottom: 2em;
+}
+
+img{
+	width: 30em;
+	margin-left: 5em;
+}	
+
+nav{
+	padding: 20px;
+	font-size: 1.5em;
+	display: block;
+	text-align: center;
+}
+
+section{
+
+}
+
+article{
+}
+
+a{
+	font-family: 'Orbitron', sans-serif;
+	color: black;
+	text-decoration: none;
+	padding: 1em;
+	width: 2em;
+}
+
+nav :hover{
+	color: #E81710;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.artists{
+	width: 30em;
+	float: right;
+	display: inline-block;
+	background: rgba(255,255,255,.8);
+	margin: .25em;
+}
+
+.panels{
+	position: relative;
+	height:100%;
+    min-height:100%;
+    width:100%;
+    z-index:100%;
+}
+
+#wrapper{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+#main{
+	position: fixed;
+	top: 0;
+	z-index: -99;
+}
+
+#artists{
+	margin-top: 100%;
+	background-image: url(http://designerwallcoverings.com/WallpaperStore/images/newspaperprintwallpaperab217999.jpg);
+}
+
+#def{
+	font-family: 'helvetica', sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	float: left;
+}
+
+#z{
+	background-color: #A0FFDE;
+}
+
+#p{
+	background-color: #90E5C8;
+}
+
+#n{
+	background-color: #78BFA6;
+}
+
+#b{
+	background-color: #5B917F;
+}
+#c{
+	background-color: #4B7868;
+}
